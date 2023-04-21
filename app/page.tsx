@@ -48,7 +48,8 @@ export default function Home() {
         />
         <Link
           className='text-center p-2 rounded border border-slate-600 bg-gradient-to-t from-slate-600 to-slate-700 hover:to-slate-900 transition-all shadow-md shadow-slate-600 '
-          prefetch={false}
+          //should be broken unless you uncomment the line below
+          //prefetch={false}
           href='/protected'>
           I am protected
         </Link>
